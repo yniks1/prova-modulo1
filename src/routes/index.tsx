@@ -34,13 +34,13 @@ const QUESTIONS: Question[] = [
     options: [
       "Fornecer um pneu novo caso o estepe esteja danificado.",
       "Enviar um borracheiro para consertar o pneu no local.",
-      "Apenas a mão de obra, sendo todas as ferramentas necessárias de responsabilidade do associado.",
+      "Apenas a mão de obra para realizar a troca do pneu danificado, sendo todas as ferramentas necessárias de responsabilidade do associado.",
       "Rebocar o veículo imediatamente para o borracheiro mais próximo."
     ],
     correctIndex: 2,
   },
   {
-    prompt: "Sobre o serviço de \"Chaveiro\", qual é a principal restrição de atendimento?",
+    prompt: "Sobre o serviço de \"Chaveiro\", qual é a principal característica de atendimento?",
     options: [
       "O serviço não está disponível fora do horário comercial.",
       "O serviço contempla exclusivamente a abertura da porta principal do veículo, não realizando abertura de porta-malas.",
@@ -64,8 +64,8 @@ const QUESTIONS: Question[] = [
     options: [
       "Sempre que o associado viaja para fora de seu estado.",
       "Apenas em casos de furto ou roubo do veículo.",
-      "Quando não há possibilidade de retorno imediato à sua residência, mediante solicitação de reembolso estipulada pela associação.",
-      "Quando o veículo precisa trocar o óleo na estrada."
+      "Quando não há possibilidade de retorno imediato dos ocupantes do veículo à para o endereço de residência cadastrado na Central de Atendimento.",
+      "Quando o tmepo de espera ultrapassa a prévia de 2 horas."
     ],
     correctIndex: 2,
   },
@@ -74,7 +74,7 @@ const QUESTIONS: Question[] = [
     options: [
       "O cliente estar viajando com a família.",
       "A ocorrência ser exclusivamente uma pane elétrica.",
-      "Somente será autorizado quando houver utilização do reboque para remoção do veículo cadastrado.",
+      "Quando houver a utilização do serviço de reboque para a remoção do veículo cadastrado.",
       "O local do evento ser fora da cidade de origem."
     ],
     correctIndex: 2,
