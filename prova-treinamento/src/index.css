@@ -66,7 +66,7 @@
 body {
   margin: 0;
   background-color: transparent !important; /* <-- NOVA LINHA: Reforço de transparência */
-  background-image: url('/fundoAssistme.png') !important;
+  background-image: url('./fundoAssistme.png') !important;
   background-size: cover !important;
   background-position: center !important;
   background-attachment: fixed !important;
