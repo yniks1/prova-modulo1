@@ -19,7 +19,7 @@
   letter-spacing: 0.18px;
   color-scheme: light dark;
   color: var(--text);
-  background: var(--bg);
+  background: transparent;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -64,10 +64,10 @@
 
 body {
   margin: 0;
-  background-image: url('/fundoAssistme.png');
-  background-size: cover; 
-  background-position: center; 
-  background-attachment: fixed;
+  background-image: url('/fundoAssistme.png') !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-attachment: fixed !important;
 }
 
 h1,
