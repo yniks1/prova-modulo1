@@ -52,30 +52,30 @@ const QUESTIONS: Question[] = [
   {
     prompt: "Na utilização do \"Envio de Combustível\", de quem é a responsabilidade pelos custos extras?",
     options: [
-      "A assistência paga o combustível até o limite de R$ 50,00.",
+      "A assistência paga o combustível até o limite de R$50,00 pois está na cobertura do plano contratado.",
       "O associado deverá arcar com os custos do combustível fornecido e do recipiente utilizado.",
-      "O prestador de serviço deve fornecer 5 litros gratuitamente.",
-      "O custo é repassado integralmente para a associação parceira."
+      "O prestador de serviço deve fornecer 5 litros gratuitament pois está na cobertura do plano contratado.",
+      "O custo é repassado integralmente para a associação parceira pois é responsabilidade deles."
     ],
     correctIndex: 1,
   },
   {
     prompt: "Quando o serviço de \"Hospedagem\" é disponibilizado ao associado?",
     options: [
-      "Sempre que o associado viaja para fora de seu estado.",
-      "Apenas em casos de furto ou roubo do veículo.",
-      "Quando não há possibilidade de retorno imediato dos ocupantes do veículo à para o endereço de residência cadastrado na Central de Atendimento.",
-      "Quando o tmepo de espera ultrapassa a prévia de 2 horas."
+      "Sempre que o associado viaja para fora de seu estado e precisa retornar para residência.",
+      "Apenas em casos de furto ou roubo do veículo, onde o associado se encontra desamparado.",
+      "Quando não há possibilidade de retorno imediato dos ocupantes do veículo para o endereço de residência cadastrado na Central de Atendimento.",
+      "Quando o tempo de espera ultrapassa a prévia de 2 horas e o associado liga mais de 3 vezes na Central de Atendimento."
     ],
     correctIndex: 2,
   },
   {
     prompt: "Para a liberação dos serviços de Táxi e MTA (Meio de Transporte Alternativo), qual é a condição obrigatória?",
     options: [
-      "O cliente estar viajando com a família.",
-      "A ocorrência ser exclusivamente uma pane elétrica.",
+      "O cliente estar viajando com a família e ter criança de colo no veículo.",
+      "A ocorrência ser exclusivamente em casos de acidente, colisão ou incêndio.",
       "Quando houver a utilização do serviço de reboque para a remoção do veículo cadastrado.",
-      "O local do evento ser fora da cidade de origem."
+      "Quando o evento ocorreu fora da cidade de residência do cliente, sendo necessário orientá-lo quanto à necessidade de retorno ao seu domicílio para a continuidade do atendimento."
     ],
     correctIndex: 2,
   }
